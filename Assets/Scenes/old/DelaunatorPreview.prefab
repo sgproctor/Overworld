@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7907776196131908490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7907776196131908489}
+  - component: {fileID: 8957462776190212722}
+  m_Layer: 0
+  m_Name: DelaunatorPreview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7907776196131908489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907776196131908490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8957462776190212722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907776196131908490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0762b2b65a5100c46998d944649bf37c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trianglePointPrefab: {fileID: 5961768956659207801, guid: c31800eeb430deb4b96b784ea16dd9cf, type: 3}
+  voronoiPointPrefab: {fileID: 5961768956659207801, guid: 6c0e382d52a86f448ba06f8ff7c14a96, type: 3}
+  voronoiEdgeWidth: 0.01
+  triangleEdgeWidth: 0.01
+  hullEdgeWith: 0.03
+  triangleEdgeColor: {r: 0, g: 0, b: 0, a: 1}
+  hullColor: {r: 0.8867924, g: 0.41351178, b: 0.09620863, a: 1}
+  voronoiColor: {r: 0.05055394, g: 0.02180491, b: 0.9245283, a: 1}
+  meshMaterial: {fileID: 2100000, guid: f6a42aa8c693b6c4ebf406ff7e09ef4a, type: 2}
+  lineMaterial: {fileID: 2100000, guid: fe60369f18361df418fb98a1ee9d6ea5, type: 2}
+  generationSize: 10
+  generationMinDistance: 1
+  drawTrianglePoints: 0
+  drawTriangleEdges: 0
+  drawVoronoiPoints: 1
+  drawVoronoiEdges: 0
+  drawHull: 1
+  createMesh: 0
