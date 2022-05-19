@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5917120258240044447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9209038638135621767}
+  - component: {fileID: 8702514167132981109}
+  m_Layer: 0
+  m_Name: MapDisplayManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9209038638135621767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917120258240044447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1513.0791, y: 780.60406, z: -10305.825}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8702514167132981109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917120258240044447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a849cdecb843c84dbc1ba21cc9ceb8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayEnum: 0
+  heightGradient:
+    serializedVersion: 2
+    key0: {r: 0.1857182, g: 0.028702382, b: 0.4056604, a: 1}
+    key1: {r: 0.056988105, g: 0.29878867, b: 0.6981765, a: 1}
+    key2: {r: 0.17030083, g: 0.4966368, b: 0.8396226, a: 0}
+    key3: {r: 0.12761194, g: 0.3, b: 0.09, a: 0}
+    key4: {r: 0.7540625, g: 0.95, b: 0.66499996, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 7331
+    ctime2: 13100
+    ctime3: 13107
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  tempGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.019996118, b: 0, a: 1}
+    key1: {r: 0.7293056, g: 0.45780402, b: 0.04375254, a: 1}
+    key2: {r: 0.38843805, g: 0.67470765, b: 0.12731183, a: 0}
+    key3: {r: 0.03177287, g: 0.3207547, b: 0.104911394, a: 0}
+    key4: {r: 0.035294123, g: 0.3137255, b: 0.28303555, a: 0}
+    key5: {r: 0.08877714, g: 0.24287057, b: 0.8962264, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 13107
+    ctime2: 29491
+    ctime3: 42598
+    ctime4: 55705
+    ctime5: 65535
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 2
+  precipitationGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.019996118, b: 0, a: 1}
+    key1: {r: 0.93220264, g: 0.14295192, b: 0.009825706, a: 1}
+    key2: {r: 0.7293056, g: 0.45780402, b: 0.04375254, a: 0}
+    key3: {r: 0.67983544, g: 0.53457093, b: 0.052024547, a: 0}
+    key4: {r: 0.38843805, g: 0.67470765, b: 0.12731183, a: 0}
+    key5: {r: 0.24168508, g: 0.745283, b: 0.16522783, a: 0}
+    key6: {r: 0.08877714, g: 0.24287057, b: 0.8962264, a: 0}
+    key7: {r: 0.0027589954, g: 0.052983478, b: 0.5849056, a: 0}
+    ctime0: 0
+    ctime1: 16384
+    ctime2: 17039
+    ctime3: 32112
+    ctime4: 32768
+    ctime5: 49151
+    ctime6: 49807
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 2
+  meshRenderer: {fileID: 0}
+  meshFilter: {fileID: 0}
+  meshMaterial: {fileID: 0}

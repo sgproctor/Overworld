@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/styles.uss?fileID=7433441132597879392&amp;guid=bcbfdc90726f23542aeabeea823d9b74&amp;type=3#styles" />
+    <ui:Foldout text="Map Settings" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 14px; translate: -12px 0; -unity-background-image-tint-color: rgb(255, 255, 255); -unity-text-outline-color: rgb(29, 29, 29); opacity: 1;">
+        <ui:SliderInt picking-mode="Ignore" label="Cell Size" value="30" high-value="40" low-value="10" name="cellSize" style="height: 28px; width: 136px; -unity-font-style: bold; -unity-text-align: middle-right; white-space: normal; align-items: center; justify-content: flex-end; color: rgb(255, 255, 255); -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); flex-direction: row; translate: 65px 1px;" />
+        <ui:Button text="Generate World" display-tooltip-when-elided="true" name="generateMap" class="button-style gen-button-style" style="translate: 36px 4px;" />
+        <ui:VisualElement style="height: 56px; width: 233px;">
+            <ui:GroupBox style="flex-direction: row; height: 49px; width: 242px;">
+                <ui:TextField picking-mode="Ignore" value="filler text" text="# of Cities" name="cityCount" style="justify-content: space-between; align-items: stretch; flex-direction: row-reverse; -unity-font-style: normal; color: rgb(73, 106, 129); -unity-text-align: middle-center; translate: 0 0; height: 37px; width: 94px;" />
+                <ui:Button text="Place Cities" display-tooltip-when-elided="true" name="placeCities" class="cities-button-style" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+        <ui:Foldout text="Display Settings" style="height: 185px; width: 219px;">
+            <ui:Button text="Display HeightMap" display-tooltip-when-elided="true" name="heightMap" class="height-button" />
+            <ui:Button text="Display Precipitation" display-tooltip-when-elided="true" name="precipitation" class="precipitation" />
+            <ui:Button text="Display Biomes" display-tooltip-when-elided="true" name="biomes" class="biomes" />
+            <ui:Button text="Display Temperature" display-tooltip-when-elided="true" name="temperature" enable-rich-text="true" class="temp" />
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

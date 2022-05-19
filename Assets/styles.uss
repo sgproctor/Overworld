@@ -1,0 +1,218 @@
+.gen-button-style {
+    height: 39px;
+    width: 143px;
+    background-color: rgb(202, 74, 64);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    border-left-color: rgb(165, 176, 209);
+    border-right-color: rgb(165, 176, 209);
+    border-top-color: rgb(165, 176, 209);
+    border-bottom-color: rgb(165, 176, 209);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    transform-origin: center;
+    translate: -2px 4px;
+}
+
+.gen-button-style:hover {
+    height: 39px;
+    width: 143px;
+    background-color: rgb(144, 63, 57);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    border-left-color: rgb(165, 176, 209);
+    border-right-color: rgb(165, 176, 209);
+    border-top-color: rgb(165, 176, 209);
+    border-bottom-color: rgb(165, 176, 209);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    transform-origin: center;
+    translate: -2px 4px;
+}
+
+.gen-button-style:active {
+    height: 39px;
+    width: 143px;
+    background-color: rgb(202, 144, 41);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    border-left-color: rgb(165, 176, 209);
+    border-right-color: rgb(165, 176, 209);
+    border-top-color: rgb(165, 176, 209);
+    border-bottom-color: rgb(165, 176, 209);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -unity-text-align: middle-left;
+    white-space: nowrap;
+    transform-origin: center;
+    translate: -2px 4px;
+}
+
+.cities-button-style {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 153, 155);
+    -unity-font-style: bold;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.cities-button-style:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 112, 113);
+    -unity-font-style: bold;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.cities-button-style:active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 245, 255);
+    -unity-font-style: bold;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.height-button {
+    -unity-text-align: middle-left;
+    background-color: rgba(86, 156, 115, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.height-button:hover {
+    -unity-text-align: middle-left;
+    background-color: rgb(84, 115, 97);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.height-button:active {
+    -unity-text-align: middle-left;
+    background-color: rgb(61, 207, 122);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.precipitation {
+    -unity-text-align: middle-left;
+    background-color: rgba(135, 161, 200, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.precipitation:hover {
+    -unity-text-align: middle-left;
+    background-color: rgb(144, 160, 183);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.precipitation:active {
+    -unity-text-align: middle-left;
+    background-color: rgb(117, 162, 231);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.biomes {
+    background-color: rgba(192, 165, 128, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.biomes:hover {
+    background-color: rgb(159, 146, 130);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.biomes:active {
+    background-color: rgb(233, 183, 113);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.temp {
+    background-color: rgba(221, 105, 105, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.temp:hover {
+    background-color: rgb(176, 118, 118);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.temp:active {
+    background-color: rgb(253, 70, 70);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
